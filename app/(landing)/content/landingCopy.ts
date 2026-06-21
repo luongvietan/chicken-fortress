@@ -364,7 +364,7 @@ export const landingCopy = {
       { src: "/images/nesting-rollaway.jpg", alt: { en: "Roll-away nesting rows", vi: "Dãy ổ đẻ trứng tự lăn" } },
       { src: "/images/interior-framing.jpg", alt: { en: "Internal wood and steel framing", vi: "Khung gỗ và thép bên trong" } },
       { src: "/images/floor-drinkers.jpg", alt: { en: "Slatted floor with nipple-drinker line", vi: "Sàn lam và đường núm uống" } },
-      { src: "/images/vermiculture-pit.jpg", alt: { en: "Slatted floor over the vermiculture pit", vi: "Sàn lưới phía trên hố trùn quế" } },
+      { src: "/images/vermiculture-pit.jpg", alt: { en: "Egg Collection Box", vi: "Hộp thu trứng" } },
       { src: "/images/feed-hopper.jpg", alt: { en: "Gravity feed hopper", vi: "Phễu cấp ăn trọng lực" } },
     ],
   },
