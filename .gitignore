@@ -24,6 +24,9 @@
 .DS_Store
 *.pem
 
+# raw camera dumps — optimize into public/images/ via scripts/optimize-images.mjs, never commit
+/public/IMG_*.jpg
+
 # debug
 npm-debug.log*
 yarn-debug.log*
