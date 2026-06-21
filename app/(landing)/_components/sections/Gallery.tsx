@@ -20,7 +20,7 @@ export function Gallery({ locale }: { locale: Locale }) {
               loading="lazy"
               className="w-full h-56 sm:h-64 object-cover transition-transform duration-500 group-hover:scale-105"
             />
-            <figcaption className="p-3 text-sm text-on-surface-variant">{t(locale, img.alt)}</figcaption>
+            <figcaption className="p-3 text-sm font-semibold text-primary">{t(locale, img.alt)}</figcaption>
           </figure>
         ))}
       </div>
