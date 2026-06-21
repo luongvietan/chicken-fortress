@@ -10,6 +10,7 @@ import { HowItWorks } from "./sections/HowItWorks";
 import { WhatsIncluded } from "./sections/WhatsIncluded";
 import { FeaturesGrid } from "./sections/FeaturesGrid";
 import { TechnicalSpecs } from "./sections/TechnicalSpecs";
+import { ProductDetails } from "./sections/ProductDetails";
 import { Gallery } from "./sections/Gallery";
 import { ProfitMetrics } from "./sections/ProfitMetrics";
 import { FinancialModel } from "./sections/FinancialModel";
@@ -29,6 +30,7 @@ export function LandingPage({ locale }: { locale: Locale }) {
         <WhatsIncluded locale={locale} />
         <FeaturesGrid locale={locale} />
         <TechnicalSpecs locale={locale} />
+        <ProductDetails locale={locale} />
         <Gallery locale={locale} />
         <ProfitMetrics locale={locale} />
         <FinancialModel locale={locale} />

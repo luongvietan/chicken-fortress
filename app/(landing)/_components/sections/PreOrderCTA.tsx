@@ -53,12 +53,11 @@ export function PreOrderCTA({ locale }: { locale: Locale }) {
             <LandingIcon name="mail" size={20} className="text-primary" />
           </a>
           <a
-            href="/files/Chicken-Coop-Full-Product-Details.pdf"
-            download
+            href="#details"
             className="inline-flex items-center gap-2 bg-white/10 text-white px-8 py-4 sm:py-5 rounded-xl font-bold hover:bg-white/20 transition-colors"
           >
-            {t(locale, c.downloadPdf)}
-            <LandingIcon name="download" size={20} className="text-white" />
+            {t(locale, c.viewDetails)}
+            <LandingIcon name="gallery" size={20} className="text-white" />
           </a>
         </div>
       </div>

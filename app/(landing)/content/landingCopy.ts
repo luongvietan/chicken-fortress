@@ -55,7 +55,7 @@ export const landingCopy = {
       en: "The Chicken Fortress converts a standard 20 ft shipping container into a self-contained habitat for up to 100 laying hens. Slatted flooring drops manure into a dedicated, epoxy-coated vermiculture pit where worms and native flies consume it in about six days — with zero odor — and mature worms return to the hens as free protein. Timed electric doors provide daytime pasture access for natural foraging.",
       vi: "The Chicken Fortress biến container 20 ft tiêu chuẩn thành môi trường nuôi khép kín cho tối đa 100 con gà mái đẻ. Sàn lam dẫn phân xuống hố nuôi trùn phủ epoxy riêng; trùn và ruồi bản địa xử lý phân trong khoảng sáu ngày — hoàn toàn không mùi — và trùn trưởng thành quay lại làm nguồn đạm miễn phí cho gà. Cửa điện hẹn giờ giúp gà ra bãi tự kiếm ăn ban ngày.",
     },
-    downloadPdf: { en: "Download full product details (PDF)", vi: "Tải bản mô tả chi tiết (PDF)" },
+    viewDetails: { en: "See full product details", vi: "Xem chi tiết sản phẩm đầy đủ" },
     stat1: { en: "Capacity", vi: "Công suất" },
     stat1Value: { en: "100 Hens", vi: "100 con gà" },
     stat2: { en: "Manure → Fertilizer", vi: "Phân → phân bón" },
@@ -346,6 +346,22 @@ export const landingCopy = {
       },
     ],
   },
+  details: {
+    title: { en: "Full Product Details", vi: "Chi tiết sản phẩm đầy đủ" },
+    subtitle: {
+      en: "Blueprints, 3D renders, and labelled section drawings of the Chicken Fortress.",
+      vi: "Bản vẽ kỹ thuật, phối cảnh 3D và mặt cắt có chú thích của Chicken Fortress.",
+    },
+    items: [
+      { src: "/images/details/detail-floorplan.jpg", caption: { en: "Floor Plan", vi: "Mặt bằng bố trí" } },
+      { src: "/images/details/detail-exterior-render.jpg", caption: { en: "Exterior Render", vi: "Phối cảnh ngoại thất" } },
+      { src: "/images/details/detail-interior-cutaway.jpg", caption: { en: "Interior Cutaway Renders", vi: "Phối cảnh cắt nội thất" } },
+      { src: "/images/details/detail-interior-3d.jpg", caption: { en: "Interior 3D Views", vi: "Phối cảnh nội thất 3D" } },
+      { src: "/images/details/detail-section-long.jpg", caption: { en: "Long Section — Nesting & Feeding", vi: "Mặt cắt dọc — ổ đẻ & cấp ăn" } },
+      { src: "/images/details/detail-section-ventilation.jpg", caption: { en: "Cross-Section — Ventilation & Insulation", vi: "Mặt cắt ngang — thông gió & cách nhiệt" } },
+      { src: "/images/details/detail-section-water.jpg", caption: { en: "Cross-Section — Water & Egg Collection", vi: "Mặt cắt ngang — cấp nước & thu trứng" } },
+    ],
+  },
   gallery: {
     title: { en: "See It Built", vi: "Hình ảnh thực tế" },
     items: [
@@ -411,7 +427,7 @@ export const landingCopy = {
     zalo: "+84 000 000 000",
     mailSubject: { en: "Chicken Fortress Pre-Order Inquiry", vi: "Yêu cầu đặt trước Chicken Fortress" },
     cta: { en: "Email to Pre-Order", vi: "Gửi email đặt trước" },
-    downloadPdf: { en: "Download full product details (PDF)", vi: "Tải bản mô tả chi tiết (PDF)" },
+    viewDetails: { en: "See full product details", vi: "Xem chi tiết sản phẩm đầy đủ" },
   },
   footer: {
     tagline: {
@@ -428,6 +444,7 @@ export const landingCopy = {
       product: { en: "Product", vi: "Sản phẩm" },
       features: { en: "Features", vi: "Tính năng" },
       specs: { en: "Specs", vi: "Thông số" },
+      details: { en: "Details", vi: "Chi tiết" },
       gallery: { en: "Gallery", vi: "Hình ảnh" },
       preorder: { en: "Pre-Order", vi: "Đặt trước" },
     },
