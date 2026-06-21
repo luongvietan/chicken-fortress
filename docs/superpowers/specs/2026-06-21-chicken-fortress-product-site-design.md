@@ -50,11 +50,12 @@ app/
       layout/{TopNav,Footer}.tsx
       ui/LandingIcon.tsx
       sections/{Hero,TrustStrip,CompanyOverview,ProductOverview,UniqueValue,
-                HowItWorks,WhatsIncluded,FeaturesGrid,TechnicalSpecs,
+                HowItWorks,WhatsIncluded,FeaturesGrid,TechnicalSpecs,Gallery,
                 ProfitMetrics,FinancialModel,PreOrderCTA}.tsx
+scripts/optimize-images.mjs          # sharp resize/compress raw photos
 public/
   brand/{logo.png,favicon.png}       # reused from gordon
-  images/{hero.jpeg,product_detail.png}
+  images/*.jpg                        # optimized real product photos (see §8)
   files/Chicken-Coop-Full-Product-Details.pdf
 ```
 
@@ -74,11 +75,13 @@ public/
 8. **WhatsIncluded** (`id=included`) — **NEW**. "What You Get" — 11 inclusion items, ✓-icon grid.
 9. **FeaturesGrid** (`id=features`) — 6 "Engineering Excellence" cards.
 10. **TechnicalSpecs** (`id=specs`) — **NEW**. Accordion of 9 spec groups (see §5).
-11. **ProfitMetrics** (`id=economics`) — former ROIInvestment, reframed as **farmer earnings**
+11. **Gallery** (`id=gallery`) — **NEW**. "See It Built" — responsive grid of real build photos
+    (see §8). Card style (rounded-xl, shadow) consistent with the design system.
+12. **ProfitMetrics** (`id=economics`) — former ROIInvestment, reframed as **farmer earnings**
     (4 metrics, 28% ROI highlighted). NOTE: this section owns the `economics` anchor.
-12. **FinancialModel** (`id=model`) — per-hen / per-unit math table (V3 numbers).
-13. **PreOrderCTA** (`id=preorder`) — **NEW**, replaces FundingCTA (see §6).
-14. **Footer** — logo, tagline, quick links (Overview · Product · Features · Specs · Economics · Pre-Order), language toggle, copyright.
+13. **FinancialModel** (`id=model`) — per-hen / per-unit math table (V3 numbers).
+14. **PreOrderCTA** (`id=preorder`) — **NEW**, replaces FundingCTA (see §6).
+15. **Footer** — logo, tagline, quick links (Overview · Product · Features · Specs · Gallery · Pre-Order), language toggle, copyright.
 
 **Removed from gordon:** `FundingCTA` (investment ask) and `MarketOpportunity`
 ("Global Demand for Clean Eggs" — market/investor pitch). Their `demand.png` asset is dropped.
@@ -162,17 +165,45 @@ Same shape as gordon (`{ en, vi }` pairs, `t(locale, …)` helper). Changes:
 
 ## 8. Assets
 
-Reuse from gordon (same brand): `brand/logo.png`, `brand/favicon.png`, `images/hero.jpeg`,
-`images/product_detail.png`, `files/Chicken-Coop-Full-Product-Details.pdf`. Drop `images/demand.png`.
-`metadata.title` → "The Chicken Fortress | Integrated Poultry–Vermiculture System".
+**Brand (reuse from gordon):** `brand/logo.png`, `brand/favicon.png`,
+`files/Chicken-Coop-Full-Product-Details.pdf`. (Client added no logo; brand is unchanged.)
+
+**Product photos (real, client-supplied):** 9 large JPGs were dropped into `public/` raw
+(9–17 MB each — far too heavy for a static site with image optimization disabled).
+Implementation must **resize + recompress** them (long edge ~1600–2000 px, mozjpeg ~80%,
+target < ~400 KB) into `public/images/` with friendly names, then **remove the oversized
+originals from `public/`** so they are not shipped in the static export.
+
+| Source file | Optimized name | Used in |
+|---|---|---|
+| `IMG_20260620_170105_630.jpg` | `images/exterior-side.jpg` | Hero |
+| `IMG_20260620_171354_262.jpg` | `images/interior-wide.jpg` | ProductOverview |
+| `IMG_20260620_170122_322.jpg` | `images/exterior-door.jpg` | Gallery (maintenance door) |
+| `IMG_20260620_171149_575.jpg` | `images/exterior-id.jpg` | Gallery (exterior) |
+| `IMG_20260620_171218_390.jpg` | `images/nesting-rollaway.jpg` | Gallery (nesting/egg) |
+| `IMG_20260620_171234_090.jpg` | `images/interior-framing.jpg` | Gallery (structure) |
+| `IMG_20260620_171243_542.jpg` | `images/floor-drinkers.jpg` | Gallery (watering/floor) |
+| `IMG_20260620_170239_687.jpg` | `images/vermiculture-pit.jpg` | Gallery (vermiculture) |
+| `IMG_20260620_170243_119.jpg` | `images/feed-hopper.jpg` | Gallery (feeding) |
+
+Each gallery image gets a localized `alt`/caption. Optimization tool: prefer `sharp`
+(devDependency) via a small Node script committed under `scripts/`, falling back to
+ImageMagick if available. Drop gordon's `hero.jpeg` / `product_detail.png` / `demand.png`
+(replaced by real photos). `metadata.title` → "The Chicken Fortress | Integrated Poultry–Vermiculture System".
+
+**Gallery section (`id=gallery`):** responsive grid (2 cols mobile / 3 cols desktop) of the
+7 gallery photos, rounded-xl + shadow, lazy-loaded, with localized captions; `data-animate`
+staggered reveal.
 
 ## 9. Verification
 
 - `npm run build` succeeds with static export; `/`, `/en/`, `/vi/` generate.
-- Manual: nav anchors scroll to sections (incl. new `#specs`, `#included`, `#preorder`);
+- Manual: nav anchors scroll to sections (incl. new `#specs`, `#included`, `#gallery`, `#preorder`);
   language toggle preserves page; accordion opens/closes + keyboard accessible;
   mailto opens; reduced-motion disables animations; mobile menu works.
 - No investment/fundraising copy remains anywhere (grep "invest", "funding", "investor").
+- Images: optimized photos render in Hero / ProductOverview / Gallery; every file under
+  `public/` is < ~500 KB (no multi-MB originals shipped in the export).
 
 ## 10. Open items (need client input)
 - Real **email / phone / Zalo** for Pre-Order + Footer (placeholders until provided).
