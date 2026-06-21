@@ -2,6 +2,7 @@
 
 import { useEffect } from "react";
 import Lenis from "lenis";
+import "lenis/dist/lenis.css";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
@@ -179,15 +180,13 @@ export function ScrollEffects() {
 
     window.__lenis = lenis;
 
-    const raf = (time: number) => {
-      lenis.raf(time);
-      requestAnimationFrame(raf);
-    };
-    requestAnimationFrame(raf);
+    lenis.on("scroll", ScrollTrigger.update);
 
-    lenis.on("scroll", () => {
-      ScrollTrigger.update();
-    });
+    const onTick = (time: number) => {
+      lenis.raf(time * 1000);
+    };
+    gsap.ticker.add(onTick);
+    gsap.ticker.lagSmoothing(0);
 
     const ctx = gsap.context(() => {
       const elements = Array.from(document.querySelectorAll<HTMLElement>("[data-animate], section"));
@@ -199,7 +198,10 @@ export function ScrollEffects() {
     });
 
     // Ensure ScrollTrigger measures after fonts/images settle.
-    const refresh = () => ScrollTrigger.refresh();
+    const refresh = () => {
+      ScrollTrigger.refresh();
+      lenis.resize();
+    };
     window.addEventListener("load", refresh);
     window.addEventListener("resize", refresh);
     setTimeout(refresh, 250);
@@ -207,6 +209,7 @@ export function ScrollEffects() {
     return () => {
       window.removeEventListener("load", refresh);
       window.removeEventListener("resize", refresh);
+      gsap.ticker.remove(onTick);
       ctx.revert();
       lenis.destroy();
       if (window.__lenis === lenis) delete window.__lenis;

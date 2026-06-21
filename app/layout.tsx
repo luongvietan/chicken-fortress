@@ -34,7 +34,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${headline.variable} ${body.variable} h-full antialiased`}
+      className={`${headline.variable} ${body.variable} antialiased`}
     >
       <body className="min-h-full flex flex-col">
         <link
