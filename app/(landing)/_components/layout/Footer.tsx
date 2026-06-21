@@ -50,9 +50,6 @@ export function Footer({ locale }: { locale: Locale }) {
           <Link className="text-on-surface-variant hover:underline transition-all" href={`/${locale}#gallery`}>
             {t(locale, landingCopy.footer.links.gallery)}
           </Link>
-          <Link className="text-on-surface-variant hover:underline transition-all" href={`/${locale}#preorder`}>
-            {t(locale, landingCopy.footer.links.preorder)}
-          </Link>
         </div>
 
         <div className="space-y-4 font-headline text-sm">

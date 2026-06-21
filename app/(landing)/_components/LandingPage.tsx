@@ -14,8 +14,6 @@ import { ProductDetails } from "./sections/ProductDetails";
 import { Gallery } from "./sections/Gallery";
 import { ProfitMetrics } from "./sections/ProfitMetrics";
 import { FinancialModel } from "./sections/FinancialModel";
-import { PreOrderCTA } from "./sections/PreOrderCTA";
-
 export function LandingPage({ locale }: { locale: Locale }) {
   return (
     <div className="text-on-surface bg-background landing-grass-bg min-h-screen">
@@ -34,7 +32,6 @@ export function LandingPage({ locale }: { locale: Locale }) {
         <Gallery locale={locale} />
         <ProfitMetrics locale={locale} />
         <FinancialModel locale={locale} />
-        <PreOrderCTA locale={locale} />
       </main>
       <Footer locale={locale} />
     </div>

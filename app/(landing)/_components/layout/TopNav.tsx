@@ -232,14 +232,6 @@ export function TopNav({ locale }: { locale: Locale }) {
             />
             <span className="sr-only">{otherLocale.toUpperCase()}</span>
           </Link>
-          <Link
-            href={`/${locale}#preorder`}
-            className="hidden sm:inline-flex bg-primary text-white px-5 sm:px-6 py-2.5 rounded-full font-bold hover:opacity-80 transition-opacity active:scale-95 duration-200"
-            onClick={() => setIsOpen(false)}
-          >
-            {t(locale, landingCopy.nav.preOrder)}
-          </Link>
-
           <button
             type="button"
             className="md:hidden inline-flex items-center justify-center w-11 h-11 rounded-full border border-outline-variant/40 text-primary bg-surface-container-lowest/70 hover:bg-surface-container-lowest transition-colors active:scale-[0.98]"
@@ -295,14 +287,6 @@ export function TopNav({ locale }: { locale: Locale }) {
                   </Link>
                   );
                 })}
-
-                <Link
-                  href={`/${locale}#preorder`}
-                  className="mt-3 inline-flex justify-center bg-primary text-white px-6 py-3 rounded-xl font-bold hover:opacity-90 transition-opacity active:scale-[0.99] duration-200"
-                  onClick={() => setIsOpen(false)}
-                >
-                  {t(locale, landingCopy.nav.preOrder)}
-                </Link>
               </div>
             </div>
           </div>

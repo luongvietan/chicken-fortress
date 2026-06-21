@@ -15,7 +15,6 @@ export const landingCopy = {
     features: { en: "Features", vi: "Tính năng" },
     specs: { en: "Specs", vi: "Thông số" },
     economics: { en: "Economics", vi: "Hiệu quả" },
-    preOrder: { en: "Pre-Order", vi: "Đặt trước" },
   },
   hero: {
     tagline: {
@@ -31,7 +30,6 @@ export const landingCopy = {
       vi: "Chicken Fortress biến container tái chế thành môi trường tự làm sạch cho 100 gà mái đẻ — trứng chăn thả cao cấp cùng phân trùn giá trị cao, chi phí thức ăn giảm mạnh nhờ côn trùng và chăn thả.",
     },
     ctaExplore: { en: "Explore Product", vi: "Khám phá sản phẩm" },
-    ctaPreOrder: { en: "Pre-Order Now", vi: "Đặt trước ngay" },
     imageAlt: { en: "The Chicken Fortress exterior", vi: "Ngoại thất Chicken Fortress" },
   },
   trust: [
@@ -313,10 +311,6 @@ export const landingCopy = {
             value: { en: "Natural convection (hot out high, fresh in low)", vi: "Đối lưu tự nhiên (khí nóng thoát trên, khí tươi vào dưới)" },
           },
           { label: { en: "Louvers", vi: "Lá sách" }, value: { en: "Reduce wind speed and drafts", vi: "Giảm tốc độ gió và gió lùa" } },
-          {
-            label: { en: "Pre-Order bonus", vi: "Ưu đãi đặt trước" },
-            value: { en: "Infrared-reflective roof coating at no extra cost", vi: "Lớp phủ mái phản hồng ngoại miễn phí" },
-          },
         ],
       },
       {
@@ -408,27 +402,6 @@ export const landingCopy = {
       { label: { en: "Net profit / unit / year (100 hens)", vi: "Lợi nhuận ròng / hệ / năm (100 con gà)" }, value: "~$4,200" },
     ],
   },
-  preOrder: {
-    title: { en: "Pre-Order The Chicken Fortress", vi: "Đặt trước The Chicken Fortress" },
-    subtitle: {
-      en: "Reserve your unit now and lock in the pre-order bonus. Tell us your location and target flock size and we’ll send a full quote.",
-      vi: "Đặt giữ suất ngay để nhận ưu đãi đặt trước. Cho chúng tôi biết địa điểm và quy mô đàn mong muốn, chúng tôi sẽ gửi báo giá đầy đủ.",
-    },
-    bonus: {
-      en: "Pre-Order bonus: free infrared-reflective roof coating on your Chicken Fortress.",
-      vi: "Ưu đãi đặt trước: tặng lớp phủ mái phản hồng ngoại cho Chicken Fortress của bạn.",
-    },
-    emailLabel: { en: "Email", vi: "Email" },
-    phoneLabel: { en: "Phone", vi: "Điện thoại" },
-    zaloLabel: { en: "Zalo", vi: "Zalo" },
-    // TODO(client): replace with real contact details.
-    email: "preorder@chickenfortress.example",
-    phone: "+84 000 000 000",
-    zalo: "+84 000 000 000",
-    mailSubject: { en: "Chicken Fortress Pre-Order Inquiry", vi: "Yêu cầu đặt trước Chicken Fortress" },
-    cta: { en: "Email to Pre-Order", vi: "Gửi email đặt trước" },
-    viewDetails: { en: "See full product details", vi: "Xem chi tiết sản phẩm đầy đủ" },
-  },
   footer: {
     tagline: {
       en: "A recycled shipping container converted into a zero-odor, double-revenue poultry system by Công Ty Kim Và Gordon (Tây Ninh, Vietnam).",
@@ -446,7 +419,6 @@ export const landingCopy = {
       specs: { en: "Specs", vi: "Thông số" },
       details: { en: "Details", vi: "Chi tiết" },
       gallery: { en: "Gallery", vi: "Hình ảnh" },
-      preorder: { en: "Pre-Order", vi: "Đặt trước" },
     },
     language: { en: "Language", vi: "Ngôn ngữ" },
     copyright: "© 2026 Công Ty Kim Và Gordon. All rights reserved.",

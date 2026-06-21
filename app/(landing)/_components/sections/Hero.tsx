@@ -38,14 +38,6 @@ export function Hero({ locale }: { locale: Locale }) {
             {t(locale, landingCopy.hero.ctaExplore)}
             <LandingIcon name="arrow_right" size={18} className="text-white" />
           </a>
-          <a
-            href="#preorder"
-            data-anim="cta"
-            className="bg-tertiary-fixed-dim text-primary px-6 sm:px-8 py-3.5 sm:py-4 rounded-xl font-bold hover:brightness-105 transition-[filter] inline-flex items-center gap-2"
-          >
-            {t(locale, landingCopy.hero.ctaPreOrder)}
-            <LandingIcon name="arrow_right" size={18} className="text-primary" />
-          </a>
         </div>
       </div>
 
