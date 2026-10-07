@@ -45,6 +45,13 @@ export function FinancialModel({ locale }: { locale: Locale }) {
             ))}
           </div>
         </div>
+        <div className="mt-8 pt-6 border-t border-outline-variant/30">
+          <h3 className="text-xl font-bold text-primary mb-3">{t(locale, landingCopy.financialModel.labor.title)}</h3>
+          <p className="text-on-surface-variant mb-4">{t(locale, landingCopy.financialModel.labor.note)}</p>
+          {landingCopy.financialModel.labor.rows.map((r) => (
+            <Row key={r.label.en} label={t(locale, r.label)} value={r.value} />
+          ))}
+        </div>
       </div>
     </section>
   );

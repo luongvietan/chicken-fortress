@@ -92,8 +92,8 @@ export const landingCopy = {
       {
         title: { en: "Portable, container-compatible design", vi: "Thiết kế di động theo chuẩn container" },
         desc: {
-          en: "Optimized for shipping, truck, or rail with minimal on-site installation.",
-          vi: "Tối ưu cho vận chuyển đường biển/xe tải/đường sắt, lắp đặt tại chỗ tối giản.",
+          en: "Ships fully ready to use with shipping included. Place the unit on four cinder blocks; no installation is needed.",
+          vi: "Giao chuồng hoàn thiện, sẵn sàng sử dụng và đã bao gồm vận chuyển. Đặt chuồng lên bốn khối gạch bê tông kê đỡ; không cần lắp đặt.",
         },
       },
     ],
@@ -118,8 +118,8 @@ export const landingCopy = {
       vi: "Mỗi Chicken Fortress đều bao gồm",
     },
     intro: {
-      en: "Everything below comes standard — a complete, ready-to-run 100-hen production unit.",
-      vi: "Tất cả hạng mục dưới đây đều là tiêu chuẩn — một đơn vị sản xuất 100 con gà hoàn chỉnh, sẵn sàng vận hành.",
+      en: "Everything below comes standard — a complete unit ready for up to 100 hens. Shipping is included; chickens are not supplied due to import restrictions.",
+      vi: "Tất cả hạng mục dưới đây đều là tiêu chuẩn — chuồng hoàn thiện cho tối đa 100 gà mái. Đã bao gồm vận chuyển; không cung cấp gà do hạn chế nhập khẩu.",
     },
     items: [
       {
@@ -162,8 +162,8 @@ export const landingCopy = {
   upgrades: {
     title: { en: "A Better Fortress, Inside and Out", vi: "Nâng cấp từ trong ra ngoài" },
     intro: {
-      en: "The latest design improves cooling, nesting comfort, feed delivery, and castings collection.",
-      vi: "Thiết kế mới cải thiện khả năng chống nóng, sự thoải mái của ổ đẻ, cấp thức ăn và thu phân trùn.",
+      en: "The finalized design follows extensive prototype testing in Tây Ninh, Vietnam, with improvements to cooling, nesting comfort, feed delivery, and castings collection.",
+      vi: "Thiết kế hoàn thiện sau quá trình thử nghiệm kỹ lưỡng mẫu chuồng tại Tây Ninh, Việt Nam, với cải tiến về chống nóng, ổ đẻ, cấp thức ăn và thu phân trùn.",
     },
     designCaption: { en: "Updated layout — living area, perches, nesting boxes, and a separate maintenance room", vi: "Bố trí mới — khu nuôi, sào đậu, ổ đẻ và phòng bảo trì riêng" },
     images: [
@@ -172,7 +172,7 @@ export const landingCopy = {
       { src: "/images/new-castings-outlet.webp", caption: { en: "Floor discharge port — removes excess worm castings", vi: "Cửa xả dưới sàn — thu lượng phân trùn dư" } },
     ],
     items: [
-      { title: { en: "Triple-layer reflective paint", vi: "Sơn phản xạ nhiệt 3 lớp" }, desc: { en: "Kova CN-05 Heat Shield is specified to reduce heat absorption by 90%. The supplied test reports internal temperature variation within 2°C in 34°C afternoon sun.", vi: "Sơn Kova CN-05 Heat Shield được mô tả giúp giảm 90% hấp thụ nhiệt. Thử nghiệm được cung cấp ghi nhận nhiệt độ bên trong biến động trong phạm vi 2°C khi ngoài trời 34°C vào buổi chiều." } },
+      { title: { en: "Triple-layer reflective paint", vi: "Sơn phản xạ nhiệt 3 lớp" }, desc: { en: "Kova claims 90% heat reflection for two coats of its Chống Nóng Heat Shield paint. The finalized Fortress uses three coats, with improved performance expected compared with the two-coat prototype shown in the test video.", vi: "Kova công bố khả năng phản xạ nhiệt 90% khi sơn hai lớp Chống Nóng Heat Shield. Fortress hoàn thiện dùng ba lớp, với hiệu quả được kỳ vọng cao hơn mẫu thử hai lớp trong video." } },
       { title: { en: "Larger air vents", vi: "Cửa thông gió lớn hơn" }, desc: { en: "44% more vent surface area supports the passive airflow system.", vi: "Diện tích cửa gió tăng 44%, hỗ trợ hệ đối lưu không khí tự nhiên." } },
       { title: { en: "Plastic nesting boxes", vi: "Ổ đẻ bằng nhựa" }, desc: { en: "More comfortable and safer for hens than the original metal nesting boxes.", vi: "Thoải mái và an toàn hơn cho gà so với ổ đẻ kim loại ban đầu." } },
       { title: { en: "Upgraded vermiculture pit", vi: "Hố nuôi trùn cải tiến" }, desc: { en: "3 manure aggregation ramps and 2 collection outlets. 3 mm filters hold back large manure clumps while letting fine worm castings pass through.", vi: "3 dốc gom phân và 2 cửa thu. Lưới lọc 3 mm chặn các cục phân lớn và cho phân trùn mịn đi qua." } },
@@ -378,8 +378,8 @@ export const landingCopy = {
   details: {
     title: { en: "Full Product Details", vi: "Chi tiết sản phẩm đầy đủ" },
     subtitle: {
-      en: "Blueprints, 3D renders, and labelled section drawings of the Chicken Fortress.",
-      vi: "Bản vẽ kỹ thuật, phối cảnh 3D và mặt cắt có chú thích của Chicken Fortress.",
+      en: "Prototype reference drawings and labelled sections. See the finalized design in the upgrades section above.",
+      vi: "Bản vẽ tham khảo và mặt cắt của mẫu thử. Thiết kế hoàn thiện nằm trong phần nâng cấp phía trên.",
     },
     items: [
       { src: "/images/details/detail-floorplan.jpg", caption: { en: "Floor Plan", vi: "Mặt bằng bố trí" } },
@@ -392,7 +392,7 @@ export const landingCopy = {
     ],
   },
   gallery: {
-    title: { en: "See It Built", vi: "Hình ảnh thực tế" },
+    title: { en: "The Tây Ninh Prototype", vi: "Mẫu chuồng thử nghiệm tại Tây Ninh" },
     items: [
       { src: "/images/exterior-door.jpg", alt: { en: "Stainless maintenance door and automatic chicken doors", vi: "Cửa bảo trì inox và cửa gà tự động" } },
       { src: "/images/exterior-id.jpg", alt: { en: "Recycled 20 ft shipping container body", vi: "Thân container 20 ft tái chế" } },
@@ -412,15 +412,15 @@ export const landingCopy = {
     metrics: [
       { value: "~$3,197", title: { en: "Net profit / unit / year", vi: "Lợi nhuận ròng / hệ / năm" } },
       { value: "~$31.97", title: { en: "Net profit / hen / year", vi: "Lợi nhuận ròng / con / năm" } },
-      { value: "18%", title: { en: "Estimated annual ROI", vi: "Tỷ suất lợi nhuận dự kiến / năm" }, highlight: true },
+      { value: "18%", title: { en: "Conservative annual ROI estimate", vi: "ROI hằng năm ước tính thận trọng" }, highlight: true },
       { value: "50%+", title: { en: "Feed reduction", vi: "Giảm lượng thức ăn" } },
     ],
   },
   financialModel: {
     title: { en: "Financial Model — Per Hen (Annual)", vi: "Mô hình tài chính — mỗi con gà (theo năm)" },
     note: {
-      en: "Estimates from the supplied financial model. Actual results vary with feed costs, egg prices, and pasture conditions. The stated 18% ROI does not specify the initial investment basis.",
-      vi: "Ước tính theo mô hình tài chính được cung cấp. Kết quả thực tế phụ thuộc giá cám, giá trứng và điều kiện chăn thả. Mức ROI 18% chưa nêu cơ sở vốn đầu tư ban đầu.",
+      en: "Annual hen cost is $5 per bird, spreading a $10 purchase over two years. Profit includes a $500 allowance per 100-hen unit for an estimated 30 hours of egg collection per year. The published 18% annual ROI is a conservative estimate. Other labor is site-dependent; results vary with feed costs, egg prices, and pasture conditions.",
+      vi: "Chi phí gà hằng năm là $5/con, phân bổ giá mua $10 trong hai năm. Lợi nhuận đã tính $500 cho mỗi hệ 100 gà, tương ứng khoảng 30 giờ thu trứng mỗi năm. ROI hằng năm công bố ở mức 18% là ước tính thận trọng. Các công việc khác tùy điều kiện trang trại; kết quả phụ thuộc giá cám, giá trứng và bãi chăn thả.",
     },
     rows: [
       { label: { en: "Conventional feed / hen / year", vi: "Cám truyền thống / con / năm" }, value: "42 kg" },
@@ -428,11 +428,11 @@ export const landingCopy = {
       { label: { en: "Bulk feed cost (assumption)", vi: "Giá cám (giả định)" }, value: "$0.45 / kg" },
       { label: { en: "Conventional feed cost / hen / year", vi: "Chi phí cám truyền thống / con / năm" }, value: "~$19" },
       { label: { en: "Feed cost / hen / year (after reduction)", vi: "Chi phí cám / con / năm (sau giảm)" }, value: "$9.50" },
-      { label: { en: "Hen purchase (one-time)", vi: "Mua gà giống (một lần)" }, value: "$10" },
+      { label: { en: "Hen cost / hen / year", vi: "Chi phí gà / con / năm" }, value: "$5" },
+      { label: { en: "Egg-collection labor / hen / year", vi: "Công thu trứng / con / năm" }, value: "$5" },
       { label: { en: "Egg output / hen / year", vi: "Sản lượng trứng / con / năm" }, value: "250" },
       { label: { en: "Egg price / egg (farm-gate)", vi: "Giá mỗi trứng (tại trại)" }, value: "$0.20" },
       { label: { en: "Egg revenue / hen / year", vi: "Doanh thu trứng / con / năm" }, value: "$50" },
-      { label: { en: "Feed-to-castings conversion rate", vi: "Tỷ lệ chuyển thức ăn thành phân trùn" }, value: "10%" },
       { label: { en: "Castings / hen / year", vi: "Phân trùn / con / năm" }, value: "~4.2 kg" },
       { label: { en: "Castings wholesale price", vi: "Giá sỉ phân trùn" }, value: "$0.35 / kg" },
       { label: { en: "Castings revenue / hen / year", vi: "Doanh thu phân trùn / con / năm" }, value: "$1.47" },
@@ -440,17 +440,25 @@ export const landingCopy = {
       { label: { en: "Net profit / hen / year", vi: "Lợi nhuận ròng / con / năm" }, value: "~$31.97" },
       { label: { en: "Net profit / unit / year (100 hens)", vi: "Lợi nhuận ròng / hệ / năm (100 con gà)" }, value: "~$3,197" },
     ],
+    labor: {
+      title: { en: "Egg-collection labor — 100-hen unit", vi: "Công thu trứng — hệ 100 gà" },
+      note: { en: "Collection takes about 10 minutes, three times per week: approximately 26 hours over 52 weeks. The model rounds this allowance to 30 hours and budgets $500 per year.", vi: "Thu trứng khoảng 10 phút mỗi lần, ba lần mỗi tuần: khoảng 26 giờ trong 52 tuần. Mô hình làm tròn dự toán thời gian lên 30 giờ và tính $500 mỗi năm." },
+      rows: [
+        { label: { en: "Estimated annual collection hours", vi: "Giờ thu trứng dự toán mỗi năm" }, value: "~30" },
+        { label: { en: "Annual labor allowance / unit", vi: "Dự toán tiền công / hệ / năm" }, value: "$500" },
+      ],
+    },
   },
   faq: {
     title: { en: "Frequently Asked Questions", vi: "Câu hỏi thường gặp" },
     items: [
       {
         question: { en: "How are payments handled?", vi: "Thanh toán được thực hiện như thế nào?" },
-        answer: { en: "We only use licensed third-party escrow services. They release your deposit to us once we provide proof of delivery. We pay all escrow fees.", vi: "Chúng tôi chỉ sử dụng dịch vụ ký quỹ của bên thứ ba được cấp phép. Tiền đặt cọc được giải ngân cho chúng tôi khi có bằng chứng giao hàng. Chúng tôi thanh toán toàn bộ phí ký quỹ." },
+        answer: { en: "We currently accept payment only through licensed third-party escrow services. They release your deposit to us once we provide proof of delivery. We pay all escrow fees.", vi: "Hiện chúng tôi chỉ nhận thanh toán qua dịch vụ ký quỹ của bên thứ ba được cấp phép. Tiền đặt cọc được giải ngân cho chúng tôi khi có bằng chứng giao hàng. Chúng tôi thanh toán toàn bộ phí ký quỹ." },
       },
       {
-        question: { en: "What is the feed-to-worm-castings conversion rate?", vi: "Tỷ lệ chuyển thức ăn thành phân trùn là gì?" },
-        answer: { en: "It is the estimated mass of worm castings after feed is consumed twice: first by the chicken and excreted as manure, then by insects that consume the manure and produce castings. The supplied financial model uses a 10% conversion rate and estimates 4.2 kg per hen per year.", vi: "Đây là khối lượng phân trùn ước tính sau khi thức ăn được tiêu thụ hai lần: lần đầu gà ăn và thải thành phân; lần sau côn trùng ăn phân và tạo ra phân trùn. Mô hình tài chính được cung cấp dùng tỷ lệ chuyển đổi 10%, ước tính 4,2 kg mỗi con gà mỗi năm." },
+        question: { en: "Where do the worm castings come from?", vi: "Phân trùn được tạo ra từ đâu?" },
+        answer: { en: "Worms and native insects process chicken manure into castings. Roughly half the manure comes from supplemental feed and half from hens foraging insects on the land. The model estimates 4.2 kg of castings per hen per year.", vi: "Trùn và côn trùng bản địa xử lý phân gà thành phân trùn. Khoảng một nửa lượng phân đến từ thức ăn bổ sung và một nửa từ côn trùng gà tự kiếm trên bãi chăn thả. Mô hình ước tính 4,2 kg phân trùn mỗi con gà mỗi năm." },
       },
       {
         question: { en: "Why is it called a Chicken Fortress?", vi: "Vì sao có tên Chicken Fortress?" },
@@ -462,18 +470,18 @@ export const landingCopy = {
       },
       {
         question: { en: "What does the temperature test show?", vi: "Thử nghiệm nhiệt độ cho thấy điều gì?" },
-        answer: { en: "The supplied test describes 8 hours in July sun with two layers of reflective paint and passive airflow. Reported ground-level readings were 35.7°C for the control and 36.3°C inside the Fortress, a 0.6°C difference. The current design uses three layers of paint to aim for similar cooling performance.", vi: "Thử nghiệm được cung cấp mô tả 8 giờ dưới nắng tháng 7, với hai lớp sơn phản xạ nhiệt và đối lưu tự nhiên. Nhiệt độ ghi nhận ở sát mặt đất là 35,7°C tại nhóm đối chứng và 36,3°C trong Fortress, chênh lệch 0,6°C. Thiết kế hiện tại dùng ba lớp sơn nhằm đạt hiệu quả chống nóng tương tự." },
+        answer: { en: "The prototype test describes 8 hours in July sun with two coats of reflective paint and passive airflow. Ground-level readings were 35.7°C for the control and 36.3°C inside the Fortress, a 0.6°C difference. Kova's 90% heat-reflection claim applies to two coats. The finalized design uses three coats and is expected to perform better than the prototype in the linked video.", vi: "Mẫu thử được đặt 8 giờ dưới nắng tháng 7 với hai lớp sơn phản xạ nhiệt và đối lưu tự nhiên. Nhiệt độ sát mặt đất là 35,7°C tại nhóm đối chứng và 36,3°C trong Fortress, chênh lệch 0,6°C. Công bố phản xạ nhiệt 90% của Kova áp dụng cho hai lớp sơn. Thiết kế hoàn thiện dùng ba lớp và được kỳ vọng hiệu quả hơn mẫu thử trong video." },
       },
       {
         question: { en: "How do I get started?", vi: "Bắt đầu như thế nào?" },
-        answer: { en: "Email us to discuss site suitability, shipping and freight, and escrow arrangements.", vi: "Gửi email để trao đổi về địa điểm lắp đặt, vận chuyển, cước hàng và phương án ký quỹ." },
+        answer: { en: "Email us for pricing, site suitability, delivery, and escrow arrangements. Shipping is included. The unit arrives fully ready to use: place it on four cinder blocks, with no installation needed. Chickens are not included due to import restrictions.", vi: "Gửi email để nhận giá bán và trao đổi về địa điểm, giao hàng và ký quỹ. Giá đã bao gồm vận chuyển. Chuồng được giao hoàn thiện: đặt lên bốn khối gạch bê tông kê đỡ, không cần lắp đặt. Không kèm gà do hạn chế nhập khẩu." },
       },
     ],
   },
   contact: {
     email: "Kimvgordon@protonmail.com",
     title: { en: "Built for profit. Designed for reality.", vi: "Tạo lợi nhuận. Phù hợp thực tế." },
-    body: { en: "The Chicken Fortress is a pasture-access poultry system for small and medium farms. Ready to get started? Let’s discuss your site, freight, and escrow arrangements.", vi: "Chicken Fortress là hệ nuôi gà có lối ra bãi chăn thả dành cho trang trại nhỏ và vừa. Hãy trao đổi về địa điểm, vận chuyển và phương án ký quỹ của bạn." },
+    body: { en: "Email us for pricing, site suitability, and escrow arrangements. Shipping is included and the unit arrives fully ready to use. Place it on four cinder blocks; no installation needed. Chickens are not included due to import restrictions.", vi: "Gửi email để nhận giá bán và trao đổi về địa điểm, phương án ký quỹ. Giá đã bao gồm vận chuyển, chuồng được giao hoàn thiện. Đặt lên bốn khối gạch bê tông kê đỡ, không cần lắp đặt. Không kèm gà do hạn chế nhập khẩu." },
     cta: { en: "Email Kim & Gordon", vi: "Gửi email cho Kim & Gordon" },
   },
   footer: {
