@@ -32,7 +32,7 @@ export function FinancialModel({ locale }: { locale: Locale }) {
             data-anim="card"
             className="bg-surface-container-lowest rounded-xl p-6 border border-outline-variant/15"
           >
-            {landingCopy.financialModel.rows.slice(0, 6).map((r) => (
+            {landingCopy.financialModel.rows.slice(0, 7).map((r) => (
               <Row key={t(locale, r.label)} label={t(locale, r.label)} value={r.value} />
             ))}
           </div>
@@ -40,7 +40,7 @@ export function FinancialModel({ locale }: { locale: Locale }) {
             data-anim="card"
             className="bg-surface-container-lowest rounded-xl p-6 border border-outline-variant/15"
           >
-            {landingCopy.financialModel.rows.slice(6).map((r) => (
+            {landingCopy.financialModel.rows.slice(7).map((r) => (
               <Row key={t(locale, r.label)} label={t(locale, r.label)} value={r.value} />
             ))}
           </div>

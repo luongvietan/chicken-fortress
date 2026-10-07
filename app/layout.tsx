@@ -20,7 +20,7 @@ const body = Inter({
 export const metadata: Metadata = {
   title: "The Chicken Fortress | Integrated Poultry–Vermiculture System",
   description:
-    "A recycled shipping container converted into a zero-odor, self-cleaning, double-revenue poultry system for 100 laying hens. Premium pasture-raised eggs plus high-value worm castings.",
+    "A recycled shipping container converted into a minimal-odor, self-cleaning, double-revenue poultry system for 100 laying hens. Premium pasture-raised eggs plus high-value worm castings.",
   icons: {
     icon: [{ url: "/brand/favicon.png", type: "image/png" }],
   },

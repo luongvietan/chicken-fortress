@@ -50,6 +50,12 @@ export function Footer({ locale }: { locale: Locale }) {
           <Link className="text-on-surface-variant hover:underline transition-all" href={`/${locale}#gallery`}>
             {t(locale, landingCopy.footer.links.gallery)}
           </Link>
+          <Link className="text-on-surface-variant hover:underline transition-all" href={`/${locale}#faq`}>
+            {t(locale, landingCopy.footer.links.faq)}
+          </Link>
+          <a className="text-on-surface-variant hover:underline break-all" href={`mailto:${landingCopy.contact.email}`}>
+            {landingCopy.contact.email}
+          </a>
         </div>
 
         <div className="space-y-4 font-headline text-sm">

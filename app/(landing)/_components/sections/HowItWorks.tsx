@@ -30,6 +30,12 @@ export function HowItWorks({ locale }: { locale: Locale }) {
             <Step key={s.icon} icon={s.icon} label={locale === "en" ? s.en : s.vi} />
           ))}
         </div>
+        <p className="max-w-3xl mx-auto mt-12 text-primary-fixed text-center leading-relaxed">{t(locale, landingCopy.how.activationNote)}</p>
+        <div className="text-center mt-5">
+          <a href="https://youtube.com/shorts/vye0KTs6298?feature=share" target="_blank" rel="noopener noreferrer" className="font-bold underline underline-offset-4 hover:text-primary-fixed">
+            {t(locale, landingCopy.how.videoLabel)} ↗
+          </a>
+        </div>
       </div>
     </section>
   );

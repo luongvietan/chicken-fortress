@@ -14,6 +14,9 @@ import { ProductDetails } from "./sections/ProductDetails";
 import { Gallery } from "./sections/Gallery";
 import { ProfitMetrics } from "./sections/ProfitMetrics";
 import { FinancialModel } from "./sections/FinancialModel";
+import { ProductUpgrades } from "./sections/ProductUpgrades";
+import { FAQ } from "./sections/FAQ";
+import { Contact } from "./sections/Contact";
 export function LandingPage({ locale }: { locale: Locale }) {
   return (
     <div className="text-on-surface bg-background landing-grass-bg min-h-screen">
@@ -26,12 +29,15 @@ export function LandingPage({ locale }: { locale: Locale }) {
         <UniqueValue locale={locale} />
         <HowItWorks locale={locale} />
         <WhatsIncluded locale={locale} />
+        <ProductUpgrades locale={locale} />
         <FeaturesGrid locale={locale} />
         <TechnicalSpecs locale={locale} />
         <ProductDetails locale={locale} />
         <Gallery locale={locale} />
         <ProfitMetrics locale={locale} />
         <FinancialModel locale={locale} />
+        <FAQ locale={locale} />
+        <Contact locale={locale} />
       </main>
       <Footer locale={locale} />
     </div>

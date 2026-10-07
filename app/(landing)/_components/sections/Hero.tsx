@@ -26,6 +26,7 @@ export function Hero({ locale }: { locale: Locale }) {
         </div>
 
         <div className="flex flex-col gap-1 max-w-xl" data-anim="subtitle">
+          <p className="text-xl font-bold text-primary mb-3">{t(locale, landingCopy.hero.promise)}</p>
           <p className="text-lg text-on-surface-variant">{t(locale, landingCopy.hero.subhead)}</p>
         </div>
 
@@ -37,6 +38,9 @@ export function Hero({ locale }: { locale: Locale }) {
           >
             {t(locale, landingCopy.hero.ctaExplore)}
             <LandingIcon name="arrow_right" size={18} className="text-white" />
+          </a>
+          <a href="#contact" data-anim="cta" className="text-primary px-6 sm:px-8 py-3.5 sm:py-4 rounded-xl font-bold border border-primary hover:bg-primary/5 transition-colors">
+            {t(locale, landingCopy.hero.ctaContact)}
           </a>
         </div>
       </div>

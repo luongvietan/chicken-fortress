@@ -18,8 +18,8 @@ export const landingCopy = {
   },
   hero: {
     tagline: {
-      en: "Zero Waste. Zero Odor. Maximum Profit.",
-      vi: "Không chất thải. Không mùi. Lợi nhuận tối đa.",
+      en: "Zero Waste. Minimal Odor. Maximum Profit.",
+      vi: "Không chất thải. Giảm thiểu mùi. Lợi nhuận tối đa.",
     },
     headline: {
       en: "The World’s First Integrated Poultry–Vermiculture System",
@@ -30,10 +30,12 @@ export const landingCopy = {
       vi: "Chicken Fortress biến container tái chế thành môi trường tự làm sạch cho 100 gà mái đẻ — trứng chăn thả cao cấp cùng phân trùn giá trị cao, chi phí thức ăn giảm mạnh nhờ côn trùng và chăn thả.",
     },
     ctaExplore: { en: "Explore Product", vi: "Khám phá sản phẩm" },
+    promise: { en: "Never shovel chicken manure again.", vi: "Không còn phải xúc phân gà." },
+    ctaContact: { en: "Discuss your farm", vi: "Tư vấn trang trại" },
     imageAlt: { en: "The Chicken Fortress exterior", vi: "Ngoại thất Chicken Fortress" },
   },
   trust: [
-    { icon: "eco", title: { en: "Zero Odor in 6 Days", vi: "Không mùi trong 6 ngày" } },
+    { icon: "eco", title: { en: "Minimal Odor · 6-Day Processing", vi: "Giảm mùi · Xử lý trong 6 ngày" } },
     { icon: "nutrition", title: { en: "50%+ Feed Reduction", vi: "Giảm hơn 50% thức ăn" } },
     { icon: "cycle", title: { en: "Double Revenue", vi: "Doanh thu kép" } },
     { icon: "conveyor_belt", title: { en: "Container-Portable", vi: "Di động theo container" } },
@@ -50,8 +52,8 @@ export const landingCopy = {
     kicker: { en: "Product Detail", vi: "Chi tiết sản phẩm" },
     title: { en: "The 100-Hen Smart Container", vi: "Container thông minh cho 100 con gà" },
     body1: {
-      en: "The Chicken Fortress converts a standard 20 ft shipping container into a self-contained habitat for up to 100 laying hens. Slatted flooring drops manure into a dedicated, epoxy-coated vermiculture pit where worms and native flies consume it in about six days — with zero odor — and mature worms return to the hens as free protein. Timed electric doors provide daytime pasture access for natural foraging.",
-      vi: "The Chicken Fortress biến container 20 ft tiêu chuẩn thành môi trường nuôi khép kín cho tối đa 100 con gà mái đẻ. Sàn lam dẫn phân xuống hố nuôi trùn phủ epoxy riêng; trùn và ruồi bản địa xử lý phân trong khoảng sáu ngày — hoàn toàn không mùi — và trùn trưởng thành quay lại làm nguồn đạm miễn phí cho gà. Cửa điện hẹn giờ giúp gà ra bãi tự kiếm ăn ban ngày.",
+      en: "The Chicken Fortress converts a standard 20 ft shipping container into a habitat for up to 100 laying hens. Conventional manure can take up to six months to compost. Here, slatted flooring drops manure into an epoxy-coated vermiculture pit, naturally attracting worms and native flies that process it in about six days with minimal odor. The insects become free protein for the hens, while timed electric doors provide daytime pasture access for foraging.",
+      vi: "The Chicken Fortress biến container 20 ft tiêu chuẩn thành môi trường nuôi tối đa 100 gà mái đẻ. Phân thông thường có thể mất tới sáu tháng để ủ. Tại đây, sàn lam dẫn phân xuống hố nuôi trùn phủ epoxy, tự thu hút trùn và ruồi bản địa xử lý trong khoảng sáu ngày với mùi được giảm thiểu. Côn trùng trở thành nguồn đạm miễn phí cho gà; cửa điện hẹn giờ giúp gà ra bãi tự kiếm ăn ban ngày.",
     },
     viewDetails: { en: "See full product details", vi: "Xem chi tiết sản phẩm đầy đủ" },
     stat1: { en: "Capacity", vi: "Công suất" },
@@ -98,6 +100,11 @@ export const landingCopy = {
   },
   how: {
     title: { en: "Circular Ecosystem Flow", vi: "Quy trình hệ sinh thái tuần hoàn" },
+    activationNote: {
+      en: "New vermiculture pits may need up to 10 days to accumulate enough manure to reach the activation threshold. Insufficient manure reduces processing efficiency; the approximate 6-day cycle applies once the system is active.",
+      vi: "Hố nuôi trùn mới có thể cần tới 10 ngày để tích đủ phân và đạt ngưỡng hoạt động. Thiếu phân sẽ làm giảm hiệu suất xử lý; chu kỳ khoảng 6 ngày áp dụng khi hệ đã hoạt động.",
+    },
+    videoLabel: { en: "Watch the vermiculture system", vi: "Xem hệ thống nuôi trùn hoạt động" },
     steps: [
       { icon: "auto_delete", en: "Waste to Vermiculture", vi: "Chất thải đến nuôi trùn quế" },
       { icon: "bug_report", en: "Worms + Flies Consume Waste", vi: "Trùn + ruồi xử lý chất thải" },
@@ -151,6 +158,28 @@ export const landingCopy = {
         vi: "Phòng bảo trì/vật tư phụ chứa phễu cấp ăn, hệ nước và khay thu trứng.",
       },
     ],
+  },
+  upgrades: {
+    title: { en: "A Better Fortress, Inside and Out", vi: "Nâng cấp từ trong ra ngoài" },
+    intro: {
+      en: "The latest design improves cooling, nesting comfort, feed delivery, and castings collection.",
+      vi: "Thiết kế mới cải thiện khả năng chống nóng, sự thoải mái của ổ đẻ, cấp thức ăn và thu phân trùn.",
+    },
+    designCaption: { en: "Updated layout — living area, perches, nesting boxes, and a separate maintenance room", vi: "Bố trí mới — khu nuôi, sào đậu, ổ đẻ và phòng bảo trì riêng" },
+    images: [
+      { src: "/images/new-plastic-nesting.webp", caption: { en: "Plastic nesting boxes — safer and more comfortable than the original metal boxes", vi: "Ổ đẻ bằng nhựa — an toàn và thoải mái hơn ổ kim loại cũ" } },
+      { src: "/images/new-feed-pipe.webp", caption: { en: "Larger feed pipe — helps prevent clogs in the gravity-fed line", vi: "Ống cấp ăn lớn hơn — giúp tránh tắc nghẽn đường cấp theo trọng lực" } },
+      { src: "/images/new-castings-outlet.webp", caption: { en: "Floor discharge port — removes excess worm castings", vi: "Cửa xả dưới sàn — thu lượng phân trùn dư" } },
+    ],
+    items: [
+      { title: { en: "Triple-layer reflective paint", vi: "Sơn phản xạ nhiệt 3 lớp" }, desc: { en: "Kova CN-05 Heat Shield is specified to reduce heat absorption by 90%. The supplied test reports internal temperature variation within 2°C in 34°C afternoon sun.", vi: "Sơn Kova CN-05 Heat Shield được mô tả giúp giảm 90% hấp thụ nhiệt. Thử nghiệm được cung cấp ghi nhận nhiệt độ bên trong biến động trong phạm vi 2°C khi ngoài trời 34°C vào buổi chiều." } },
+      { title: { en: "Larger air vents", vi: "Cửa thông gió lớn hơn" }, desc: { en: "44% more vent surface area supports the passive airflow system.", vi: "Diện tích cửa gió tăng 44%, hỗ trợ hệ đối lưu không khí tự nhiên." } },
+      { title: { en: "Plastic nesting boxes", vi: "Ổ đẻ bằng nhựa" }, desc: { en: "More comfortable and safer for hens than the original metal nesting boxes.", vi: "Thoải mái và an toàn hơn cho gà so với ổ đẻ kim loại ban đầu." } },
+      { title: { en: "Upgraded vermiculture pit", vi: "Hố nuôi trùn cải tiến" }, desc: { en: "3 manure aggregation ramps and 2 collection outlets. 3 mm filters hold back large manure clumps while letting fine worm castings pass through.", vi: "3 dốc gom phân và 2 cửa thu. Lưới lọc 3 mm chặn các cục phân lớn và cho phân trùn mịn đi qua." } },
+      { title: { en: "Corner ramp panels", vi: "Tấm dốc chắn góc" }, desc: { en: "Discourage hens from laying in corners instead of the nesting boxes.", vi: "Hạn chế gà đẻ ở các góc thay vì trong ổ đẻ." } },
+      { title: { en: "Garden-hose water connection", vi: "Đầu nối nước cho vòi tưới" }, desc: { en: "The 55-gallon drum intake now uses a threaded male garden-hose connector.", vi: "Ống cấp nước vào thùng 55 gallon sử dụng đầu nối ren ngoài cho vòi tưới vườn." } },
+    ],
+    videoLabel: { en: "Watch the heat-shield test", vi: "Xem thử nghiệm chống nóng" },
   },
   features: {
     title: { en: "Engineering Excellence", vi: "Kỹ thuật xuất sắc" },
@@ -262,19 +291,22 @@ export const landingCopy = {
           },
           {
             label: { en: "Waste processing", vi: "Xử lý chất thải" },
-            value: { en: "Worms + native flies, ~6 days (95%+ vs composting)", vi: "Trùn + ruồi bản địa, ~6 ngày (giảm 95%+ so với ủ phân)" },
+            value: { en: "Worms + native flies, ~6 days (90% reduction vs composting)", vi: "Trùn + ruồi bản địa, ~6 ngày (giảm 90% thời gian so với ủ phân)" },
           },
           {
             label: { en: "Protein return", vi: "Hoàn đạm" },
             value: { en: "Mature worms spill over (~20% feed replacement)", vi: "Trùn trưởng thành tràn sang (thay ~20% thức ăn)" },
           },
-          { label: { en: "Hygiene", vi: "Vệ sinh" }, value: { en: "Epoxy-coated, zero odor", vi: "Phủ epoxy, không mùi" } },
+          { label: { en: "Hygiene", vi: "Vệ sinh" }, value: { en: "Food-grade epoxy, minimal odor", vi: "Epoxy đạt chuẩn thực phẩm, giảm thiểu mùi" } },
+          { label: { en: "Activation", vi: "Khởi động" }, value: { en: "Up to 10 days to accumulate enough manure", vi: "Tới 10 ngày để tích đủ lượng phân" } },
+          { label: { en: "Collection", vi: "Thu phân trùn" }, value: { en: "3 aggregation ramps, 2 outlets, 3 mm filters", vi: "3 dốc gom phân, 2 cửa thu, lưới lọc 3 mm" } },
         ],
       },
       {
         title: { en: "Nesting & Egg Collection", vi: "Khu đẻ & thu trứng" },
         rows: [
-          { label: { en: "Compartments", vi: "Số ô đẻ" }, value: { en: "18 (300 mm width)", vi: "18 ô (rộng 300 mm)" } },
+          { label: { en: "Compartments", vi: "Số ô đẻ" }, value: { en: "18 plastic compartments (300 mm width)", vi: "18 ô nhựa (rộng 300 mm)" } },
+          { label: { en: "Corner panels", vi: "Tấm chắn góc" }, value: { en: "Ramps discourage laying outside the nesting boxes", vi: "Tấm dốc hạn chế gà đẻ ở góc ngoài ổ" } },
           { label: { en: "Design", vi: "Cơ chế" }, value: { en: "Roll-away to a central tray", vi: "Trứng tự lăn về khay trung tâm" } },
           { label: { en: "Collection point", vi: "Điểm thu trứng" }, value: { en: "In the maintenance room", vi: "Trong phòng bảo trì" } },
           {
@@ -286,7 +318,8 @@ export const landingCopy = {
       {
         title: { en: "Feeding System", vi: "Hệ cấp ăn" },
         rows: [
-          { label: { en: "Hopper", vi: "Phễu" }, value: { en: "Gravity-fed closed hopper", vi: "Phễu kín cấp theo trọng lực" } },
+          { label: { en: "Hopper", vi: "Phễu" }, value: { en: "50-pound closed gravity-fed hopper", vi: "Phễu kín 50 pound (khoảng 22,7 kg), cấp theo trọng lực" } },
+          { label: { en: "Feed pipe", vi: "Ống cấp ăn" }, value: { en: "Larger pipe to prevent clogs", vi: "Ống lớn hơn giúp tránh tắc nghẽn" } },
           { label: { en: "Feeding line", vi: "Đường máng" }, value: { en: "Runs the length of the living area", vi: "Chạy dọc khu sống" } },
           {
             label: { en: "Operation", vi: "Vận hành" },
@@ -300,12 +333,14 @@ export const landingCopy = {
           { label: { en: "Reservoir", vi: "Bồn chứa" }, value: { en: "55-gallon (~208 L) drum on stand", vi: "Thùng 55 gallon (~208 L) trên giá" } },
           { label: { en: "Delivery", vi: "Dẫn nước" }, value: { en: "Pipe to nipple-drinker line", vi: "Ống dẫn tới đường núm uống" } },
           { label: { en: "Pressure", vi: "Áp lực" }, value: { en: "Gravity / low-pressure", vi: "Trọng lực / áp suất thấp" } },
+          { label: { en: "Water intake", vi: "Đầu cấp nước" }, value: { en: "Threaded male garden-hose connector", vi: "Đầu nối ren ngoài cho vòi tưới vườn" } },
         ],
       },
       {
         title: { en: "Ventilation & Airflow", vi: "Thông gió & luồng khí" },
         rows: [
-          { label: { en: "Openings", vi: "Cửa gió" }, value: { en: "High + low louvered vents", vi: "Cửa có lá sách trên + dưới" } },
+          { label: { en: "Openings", vi: "Cửa gió" }, value: { en: "High + low louvered vents; 44% more surface area", vi: "Cửa lá sách trên + dưới; diện tích tăng 44%" } },
+          { label: { en: "Heat shielding", vi: "Chống nóng" }, value: { en: "3 layers of Kova CN-05 reflective paint", vi: "3 lớp sơn phản xạ nhiệt Kova CN-05" } },
           {
             label: { en: "Principle", vi: "Nguyên lý" },
             value: { en: "Natural convection (hot out high, fresh in low)", vi: "Đối lưu tự nhiên (khí nóng thoát trên, khí tươi vào dưới)" },
@@ -375,37 +410,76 @@ export const landingCopy = {
       vi: "Người nuôi thu được gì — theo từng con và từng hệ.",
     },
     metrics: [
-      { value: "$4,200", title: { en: "Net profit / unit / year", vi: "Lợi nhuận ròng / hệ / năm" } },
-      { value: "$42", title: { en: "Net profit / hen / year", vi: "Lợi nhuận ròng / con / năm" } },
-      { value: "28%", title: { en: "Annual ROI", vi: "Tỷ suất lợi nhuận / năm" }, highlight: true },
+      { value: "~$3,197", title: { en: "Net profit / unit / year", vi: "Lợi nhuận ròng / hệ / năm" } },
+      { value: "~$31.97", title: { en: "Net profit / hen / year", vi: "Lợi nhuận ròng / con / năm" } },
+      { value: "18%", title: { en: "Estimated annual ROI", vi: "Tỷ suất lợi nhuận dự kiến / năm" }, highlight: true },
       { value: "50%+", title: { en: "Feed reduction", vi: "Giảm lượng thức ăn" } },
     ],
   },
   financialModel: {
     title: { en: "Financial Model — Per Hen (Annual)", vi: "Mô hình tài chính — mỗi con gà (theo năm)" },
     note: {
-      en: "Conservative assumptions; actual performance varies with feed cost, egg price, and pasture conditions.",
-      vi: "Các giả định mang tính thận trọng; kết quả thực tế phụ thuộc giá cám, giá trứng và điều kiện chăn thả.",
+      en: "Estimates from the supplied financial model. Actual results vary with feed costs, egg prices, and pasture conditions. The stated 18% ROI does not specify the initial investment basis.",
+      vi: "Ước tính theo mô hình tài chính được cung cấp. Kết quả thực tế phụ thuộc giá cám, giá trứng và điều kiện chăn thả. Mức ROI 18% chưa nêu cơ sở vốn đầu tư ban đầu.",
     },
     rows: [
       { label: { en: "Conventional feed / hen / year", vi: "Cám truyền thống / con / năm" }, value: "42 kg" },
       { label: { en: "Chicken Fortress feed / hen / year", vi: "Cám theo Chicken Fortress / con / năm" }, value: "21 kg" },
       { label: { en: "Bulk feed cost (assumption)", vi: "Giá cám (giả định)" }, value: "$0.45 / kg" },
+      { label: { en: "Conventional feed cost / hen / year", vi: "Chi phí cám truyền thống / con / năm" }, value: "~$19" },
       { label: { en: "Feed cost / hen / year (after reduction)", vi: "Chi phí cám / con / năm (sau giảm)" }, value: "$9.50" },
       { label: { en: "Hen purchase (one-time)", vi: "Mua gà giống (một lần)" }, value: "$10" },
-      { label: { en: "Egg output / hen / year", vi: "Sản lượng trứng / con / năm" }, value: "250 eggs" },
-      { label: { en: "Egg price (farm-gate)", vi: "Giá trứng (tại trại)" }, value: "$0.20 / egg" },
-      { label: { en: "Castings / hen / year", vi: "Phân trùn / con / năm" }, value: "35 kg" },
+      { label: { en: "Egg output / hen / year", vi: "Sản lượng trứng / con / năm" }, value: "250" },
+      { label: { en: "Egg price / egg (farm-gate)", vi: "Giá mỗi trứng (tại trại)" }, value: "$0.20" },
+      { label: { en: "Egg revenue / hen / year", vi: "Doanh thu trứng / con / năm" }, value: "$50" },
+      { label: { en: "Feed-to-castings conversion rate", vi: "Tỷ lệ chuyển thức ăn thành phân trùn" }, value: "10%" },
+      { label: { en: "Castings / hen / year", vi: "Phân trùn / con / năm" }, value: "~4.2 kg" },
       { label: { en: "Castings wholesale price", vi: "Giá sỉ phân trùn" }, value: "$0.35 / kg" },
-      { label: { en: "Total revenue / hen / year", vi: "Tổng doanh thu / con / năm" }, value: "~$62" },
-      { label: { en: "Net profit / hen / year", vi: "Lợi nhuận ròng / con / năm" }, value: "~$42" },
-      { label: { en: "Net profit / unit / year (100 hens)", vi: "Lợi nhuận ròng / hệ / năm (100 con gà)" }, value: "~$4,200" },
+      { label: { en: "Castings revenue / hen / year", vi: "Doanh thu phân trùn / con / năm" }, value: "$1.47" },
+      { label: { en: "Total revenue / hen / year", vi: "Tổng doanh thu / con / năm" }, value: "~$51.47" },
+      { label: { en: "Net profit / hen / year", vi: "Lợi nhuận ròng / con / năm" }, value: "~$31.97" },
+      { label: { en: "Net profit / unit / year (100 hens)", vi: "Lợi nhuận ròng / hệ / năm (100 con gà)" }, value: "~$3,197" },
     ],
+  },
+  faq: {
+    title: { en: "Frequently Asked Questions", vi: "Câu hỏi thường gặp" },
+    items: [
+      {
+        question: { en: "How are payments handled?", vi: "Thanh toán được thực hiện như thế nào?" },
+        answer: { en: "We only use licensed third-party escrow services. They release your deposit to us once we provide proof of delivery. We pay all escrow fees.", vi: "Chúng tôi chỉ sử dụng dịch vụ ký quỹ của bên thứ ba được cấp phép. Tiền đặt cọc được giải ngân cho chúng tôi khi có bằng chứng giao hàng. Chúng tôi thanh toán toàn bộ phí ký quỹ." },
+      },
+      {
+        question: { en: "What is the feed-to-worm-castings conversion rate?", vi: "Tỷ lệ chuyển thức ăn thành phân trùn là gì?" },
+        answer: { en: "It is the estimated mass of worm castings after feed is consumed twice: first by the chicken and excreted as manure, then by insects that consume the manure and produce castings. The supplied financial model uses a 10% conversion rate and estimates 4.2 kg per hen per year.", vi: "Đây là khối lượng phân trùn ước tính sau khi thức ăn được tiêu thụ hai lần: lần đầu gà ăn và thải thành phân; lần sau côn trùng ăn phân và tạo ra phân trùn. Mô hình tài chính được cung cấp dùng tỷ lệ chuyển đổi 10%, ước tính 4,2 kg mỗi con gà mỗi năm." },
+      },
+      {
+        question: { en: "Why is it called a Chicken Fortress?", vi: "Vì sao có tên Chicken Fortress?" },
+        answer: { en: "It is a steel box with strong heat shielding, a 55-gallon water drum, a 50-pound feed hopper, and a vermiculture pit that turns manure into protein for the chickens — built to keep the flock supplied and protected.", vi: "Đó là một hộp thép có khả năng chống nóng, thùng nước 55 gallon, phễu thức ăn 50 pound và hố nuôi trùn biến phân thành nguồn đạm cho gà — được thiết kế để cung cấp nhu yếu phẩm và bảo vệ đàn gà." },
+      },
+      {
+        question: { en: "Can I lock the doors and use it as a self-cleaning battery cage?", vi: "Có thể khóa cửa và dùng như chuồng nhốt tự làm sạch không?" },
+        answer: { en: "No. The automatic doors sit in the corners so hens nest on the opposite wall. When those doors are locked closed, the corners become attractive nesting spots and eggs can no longer all be collected from the maintenance room. The system is designed for daytime pasture access.", vi: "Không. Cửa tự động được đặt ở góc để gà làm ổ ở tường đối diện. Khi khóa cửa đóng kín, các góc trở thành nơi đẻ ưa thích và không thể thu toàn bộ trứng từ phòng bảo trì. Hệ được thiết kế để gà ra bãi chăn thả ban ngày." },
+      },
+      {
+        question: { en: "What does the temperature test show?", vi: "Thử nghiệm nhiệt độ cho thấy điều gì?" },
+        answer: { en: "The supplied test describes 8 hours in July sun with two layers of reflective paint and passive airflow. Reported ground-level readings were 35.7°C for the control and 36.3°C inside the Fortress, a 0.6°C difference. The current design uses three layers of paint to aim for similar cooling performance.", vi: "Thử nghiệm được cung cấp mô tả 8 giờ dưới nắng tháng 7, với hai lớp sơn phản xạ nhiệt và đối lưu tự nhiên. Nhiệt độ ghi nhận ở sát mặt đất là 35,7°C tại nhóm đối chứng và 36,3°C trong Fortress, chênh lệch 0,6°C. Thiết kế hiện tại dùng ba lớp sơn nhằm đạt hiệu quả chống nóng tương tự." },
+      },
+      {
+        question: { en: "How do I get started?", vi: "Bắt đầu như thế nào?" },
+        answer: { en: "Email us to discuss site suitability, shipping and freight, and escrow arrangements.", vi: "Gửi email để trao đổi về địa điểm lắp đặt, vận chuyển, cước hàng và phương án ký quỹ." },
+      },
+    ],
+  },
+  contact: {
+    email: "Kimvgordon@protonmail.com",
+    title: { en: "Built for profit. Designed for reality.", vi: "Tạo lợi nhuận. Phù hợp thực tế." },
+    body: { en: "The Chicken Fortress is a pasture-access poultry system for small and medium farms. Ready to get started? Let’s discuss your site, freight, and escrow arrangements.", vi: "Chicken Fortress là hệ nuôi gà có lối ra bãi chăn thả dành cho trang trại nhỏ và vừa. Hãy trao đổi về địa điểm, vận chuyển và phương án ký quỹ của bạn." },
+    cta: { en: "Email Kim & Gordon", vi: "Gửi email cho Kim & Gordon" },
   },
   footer: {
     tagline: {
-      en: "A recycled shipping container converted into a zero-odor, double-revenue poultry system by Công Ty Kim Và Gordon (Tây Ninh, Vietnam).",
-      vi: "Container tái chế chuyển đổi thành hệ nuôi gà không mùi, hai nguồn doanh thu bởi Công Ty Kim Và Gordon (Tây Ninh, Việt Nam).",
+      en: "A recycled shipping container converted into a minimal-odor, double-revenue poultry system by Công Ty Kim Và Gordon (Tây Ninh, Vietnam).",
+      vi: "Container tái chế chuyển đổi thành hệ nuôi gà giảm thiểu mùi, hai nguồn doanh thu bởi Công Ty Kim Và Gordon (Tây Ninh, Việt Nam).",
     },
     subtagline: {
       en: "The Chicken Fortress: 100-hen systems with a 6-day waste-to-feed loop and daytime pasture access.",
@@ -419,6 +493,7 @@ export const landingCopy = {
       specs: { en: "Specs", vi: "Thông số" },
       details: { en: "Details", vi: "Chi tiết" },
       gallery: { en: "Gallery", vi: "Hình ảnh" },
+      faq: { en: "FAQ & Contact", vi: "Hỏi đáp & Liên hệ" },
     },
     language: { en: "Language", vi: "Ngôn ngữ" },
     copyright: "© 2026 Công Ty Kim Và Gordon. All rights reserved.",
