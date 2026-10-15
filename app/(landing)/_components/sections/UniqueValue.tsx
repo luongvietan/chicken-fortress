@@ -1,3 +1,4 @@
+import Image from "next/image";
 import type { Locale } from "../../content/landingCopy";
 import { landingCopy, t } from "../../content/landingCopy";
 
@@ -36,6 +37,32 @@ export function UniqueValue({ locale }: { locale: Locale }) {
             desc={t(locale, b.desc)}
           />
         ))}
+      </div>
+
+      <div className="mt-10 sm:mt-12 space-y-6">
+        {landingCopy.valueProp.images.map((item) => {
+          const image = item[locale];
+
+          return (
+            <a
+              key={image.src}
+              href={image.src}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={`${t(locale, landingCopy.valueProp.openImage)}: ${t(locale, item.alt)}`}
+              className="block overflow-hidden rounded-xl border border-outline-variant/30 bg-surface-container-lowest cursor-zoom-in focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-primary"
+            >
+              <Image
+                src={image.src}
+                alt={t(locale, item.alt)}
+                width={image.width}
+                height={image.height}
+                sizes="(max-width: 1200px) 100vw, 1136px"
+                className="w-full h-auto"
+              />
+            </a>
+          );
+        })}
       </div>
     </section>
   );

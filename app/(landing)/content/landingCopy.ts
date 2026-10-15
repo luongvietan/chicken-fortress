@@ -63,6 +63,25 @@ export const landingCopy = {
   },
   valueProp: {
     title: { en: "Unique Value Proposition", vi: "Lợi thế khác biệt" },
+    openImage: { en: "Open full-size image", vi: "Mở ảnh kích thước đầy đủ" },
+    images: [
+      {
+        en: { src: "/images/Self Cleaning System.jpg", width: 1792, height: 1008 },
+        vi: { src: "/images/Self Cleaning System VN.jpg", width: 1792, height: 1008 },
+        alt: {
+          en: "Chicken Fortress cutaway: manure falls through the slatted floor into the vermiculture pit, and a sloped ramp directs worm castings and worms toward the hens’ foraging area.",
+          vi: "Mặt cắt Chicken Fortress: phân gà rơi qua sàn lam xuống hố nuôi trùn; máng dốc hướng phân trùn và trùn về khu vực kiếm ăn của gà.",
+        },
+      },
+      {
+        en: { src: "/images/Self Cleaning System 2.jpg", width: 1168, height: 784 },
+        vi: { src: "/images/Self Cleaning System 2VN.jpg", width: 1712, height: 1152 },
+        alt: {
+          en: "Vermicomposting ramp cross-section: fresh manure falls onto the ramp, accumulates for worms to process, and pushes finished worm castings out of the system.",
+          vi: "Mặt cắt máng dốc ủ phân trùn: phân tươi rơi xuống máng, tích tụ để trùn xử lý và đẩy phân trùn thành phẩm ra khỏi hệ thống.",
+        },
+      },
+    ],
     intro: {
       en: "The Chicken Fortress is designed as an integrated system—portable, circular, and farmer-friendly.",
       vi: "The Chicken Fortress được thiết kế như một hệ thống tích hợp—di động, tuần hoàn và dễ vận hành.",
