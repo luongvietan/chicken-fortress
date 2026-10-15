@@ -37,7 +37,7 @@ export const landingCopy = {
   trust: [
     { icon: "eco", title: { en: "Minimal Odor · 6-Day Processing", vi: "Giảm mùi · Xử lý trong 6 ngày" } },
     { icon: "nutrition", title: { en: "50%+ Feed Reduction", vi: "Giảm hơn 50% thức ăn" } },
-    { icon: "cycle", title: { en: "Double Revenue", vi: "Doanh thu kép" } },
+    { icon: "cycle", title: { en: "More Profit", vi: "Lợi nhuận cao hơn" } },
     { icon: "conveyor_belt", title: { en: "Container-Portable", vi: "Di động theo container" } },
   ],
   company: {
@@ -179,10 +179,10 @@ export const landingCopy = {
     ],
   },
   upgrades: {
-    title: { en: "A Better Fortress, Inside and Out", vi: "Nâng cấp từ trong ra ngoài" },
+    title: { en: "A Better Home for your Chickens", vi: "Mái ấm tốt hơn cho đàn gà của bạn" },
     intro: {
-      en: "The finalized design follows extensive prototype testing in Tây Ninh, Vietnam, with improvements to cooling, nesting comfort, feed delivery, and castings collection.",
-      vi: "Thiết kế hoàn thiện sau quá trình thử nghiệm kỹ lưỡng mẫu chuồng tại Tây Ninh, Việt Nam, với cải tiến về chống nóng, ổ đẻ, cấp thức ăn và thu phân trùn.",
+      en: "Stress Tested in 95 degree Fahrenheit temperature (35 Celsius) Summer Heat",
+      vi: "Đã thử nghiệm trong nhiệt độ mùa hè 95 độ F (35 độ C)",
     },
     designCaption: { en: "Updated layout — living area, perches, nesting boxes, and a separate maintenance room", vi: "Bố trí mới — khu nuôi, sào đậu, ổ đẻ và phòng bảo trì riêng" },
     images: [
@@ -191,7 +191,7 @@ export const landingCopy = {
       { src: "/images/new-castings-outlet.webp", caption: { en: "Floor discharge port — removes excess worm castings", vi: "Cửa xả dưới sàn — thu lượng phân trùn dư" } },
     ],
     items: [
-      { title: { en: "Triple-layer reflective paint", vi: "Sơn phản xạ nhiệt 3 lớp" }, desc: { en: "Kova claims 90% heat reflection for two coats of its Chống Nóng Heat Shield paint. The finalized Fortress uses three coats, with improved performance expected compared with the two-coat prototype shown in the test video.", vi: "Kova công bố khả năng phản xạ nhiệt 90% khi sơn hai lớp Chống Nóng Heat Shield. Fortress hoàn thiện dùng ba lớp, với hiệu quả được kỳ vọng cao hơn mẫu thử hai lớp trong video." } },
+      { title: { en: "Triple-layer reflective paint", vi: "Sơn phản xạ nhiệt 3 lớp" }, desc: { en: "Kova CN-05 Heat Shield reflects 90% of solar heat.", vi: "Sơn chống nóng Kova CN-05 phản xạ 90% nhiệt mặt trời." } },
       { title: { en: "Larger air vents", vi: "Cửa thông gió lớn hơn" }, desc: { en: "44% more vent surface area supports the passive airflow system.", vi: "Diện tích cửa gió tăng 44%, hỗ trợ hệ đối lưu không khí tự nhiên." } },
       { title: { en: "Plastic nesting boxes", vi: "Ổ đẻ bằng nhựa" }, desc: { en: "More comfortable and safer for hens than the original metal nesting boxes.", vi: "Thoải mái và an toàn hơn cho gà so với ổ đẻ kim loại ban đầu." } },
       { title: { en: "Upgraded vermiculture pit", vi: "Hố nuôi trùn cải tiến" }, desc: { en: "3 manure aggregation ramps and 2 collection outlets. 3 mm filters hold back large manure clumps while letting fine worm castings pass through.", vi: "3 dốc gom phân và 2 cửa thu. Lưới lọc 3 mm chặn các cục phân lớn và cho phân trùn mịn đi qua." } },
@@ -411,7 +411,7 @@ export const landingCopy = {
     ],
   },
   gallery: {
-    title: { en: "The Tây Ninh Prototype", vi: "Mẫu chuồng thử nghiệm tại Tây Ninh" },
+    title: { en: "More Pictures", vi: "Thêm hình ảnh" },
     items: [
       { src: "/images/exterior-door.jpg", alt: { en: "Stainless maintenance door and automatic chicken doors", vi: "Cửa bảo trì inox và cửa gà tự động" } },
       { src: "/images/exterior-id.jpg", alt: { en: "Recycled 20 ft shipping container body", vi: "Thân container 20 ft tái chế" } },
@@ -438,8 +438,8 @@ export const landingCopy = {
   financialModel: {
     title: { en: "Financial Model — Per Hen (Annual)", vi: "Mô hình tài chính — mỗi con gà (theo năm)" },
     note: {
-      en: "Annual hen cost is $5 per bird, spreading a $10 purchase over two years. Profit includes a $500 allowance per 100-hen unit for an estimated 30 hours of egg collection per year. The published 18% annual ROI is a conservative estimate. Other labor is site-dependent; results vary with feed costs, egg prices, and pasture conditions.",
-      vi: "Chi phí gà hằng năm là $5/con, phân bổ giá mua $10 trong hai năm. Lợi nhuận đã tính $500 cho mỗi hệ 100 gà, tương ứng khoảng 30 giờ thu trứng mỗi năm. ROI hằng năm công bố ở mức 18% là ước tính thận trọng. Các công việc khác tùy điều kiện trang trại; kết quả phụ thuộc giá cám, giá trứng và bãi chăn thả.",
+      en: "",
+      vi: "",
     },
     rows: [
       { label: { en: "Conventional feed / hen / year", vi: "Cám truyền thống / con / năm" }, value: "42 kg" },
@@ -461,11 +461,8 @@ export const landingCopy = {
     ],
     labor: {
       title: { en: "Egg-collection labor — 100-hen unit", vi: "Công thu trứng — hệ 100 gà" },
-      note: { en: "Collection takes about 10 minutes, three times per week: approximately 26 hours over 52 weeks. The model rounds this allowance to 30 hours and budgets $500 per year.", vi: "Thu trứng khoảng 10 phút mỗi lần, ba lần mỗi tuần: khoảng 26 giờ trong 52 tuần. Mô hình làm tròn dự toán thời gian lên 30 giờ và tính $500 mỗi năm." },
-      rows: [
-        { label: { en: "Estimated annual collection hours", vi: "Giờ thu trứng dự toán mỗi năm" }, value: "~30" },
-        { label: { en: "Annual labor allowance / unit", vi: "Dự toán tiền công / hệ / năm" }, value: "$500" },
-      ],
+      note: { en: "Collection takes about 10 minutes, three times per week: approximately 26 hours over 52 weeks.", vi: "Thu trứng khoảng 10 phút mỗi lần, ba lần mỗi tuần: khoảng 26 giờ trong 52 tuần." },
+      rows: [] as Array<{ label: Bi; value: string }>,
     },
   },
   faq: {
