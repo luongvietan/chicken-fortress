@@ -111,8 +111,8 @@ export const landingCopy = {
       {
         title: { en: "Portable, container-compatible design", vi: "Thiết kế di động theo chuẩn container" },
         desc: {
-          en: "Ships fully ready to use with shipping included. Place the unit on four cinder blocks; no installation is needed.",
-          vi: "Giao chuồng hoàn thiện, sẵn sàng sử dụng và đã bao gồm vận chuyển. Đặt chuồng lên bốn khối gạch bê tông kê đỡ; không cần lắp đặt.",
+          en: "Ships fully ready to use. Place the unit on four cinder blocks; no installation is needed.",
+          vi: "Chuồng được giao hoàn thiện, sẵn sàng sử dụng. Đặt chuồng lên bốn khối gạch bê tông kê đỡ; không cần lắp đặt.",
         },
       },
     ],
@@ -137,8 +137,8 @@ export const landingCopy = {
       vi: "Mỗi Chicken Fortress đều bao gồm",
     },
     intro: {
-      en: "Everything below comes standard — a complete unit ready for up to 100 hens. Shipping is included; chickens are not supplied due to import restrictions.",
-      vi: "Tất cả hạng mục dưới đây đều là tiêu chuẩn — chuồng hoàn thiện cho tối đa 100 gà mái. Đã bao gồm vận chuyển; không cung cấp gà do hạn chế nhập khẩu.",
+      en: "Everything below comes standard — a complete unit ready for up to 100 hens. Shipping costs are not included. Chickens are not supplied due to import restrictions.",
+      vi: "Tất cả hạng mục dưới đây đều là tiêu chuẩn — chuồng hoàn thiện cho tối đa 100 gà mái. Giá chưa bao gồm phí vận chuyển. Không cung cấp gà do hạn chế nhập khẩu.",
     },
     items: [
       {
@@ -490,14 +490,14 @@ export const landingCopy = {
       },
       {
         question: { en: "How do I get started?", vi: "Bắt đầu như thế nào?" },
-        answer: { en: "Email us for pricing, site suitability, delivery, and escrow arrangements. Shipping is included. The unit arrives fully ready to use: place it on four cinder blocks, with no installation needed. Chickens are not included due to import restrictions.", vi: "Gửi email để nhận giá bán và trao đổi về địa điểm, giao hàng và ký quỹ. Giá đã bao gồm vận chuyển. Chuồng được giao hoàn thiện: đặt lên bốn khối gạch bê tông kê đỡ, không cần lắp đặt. Không kèm gà do hạn chế nhập khẩu." },
+        answer: { en: "Email us for pricing, site suitability, delivery, and escrow arrangements. Shipping costs are not included in the price. The unit arrives fully ready to use: place it on four cinder blocks, with no installation needed. Chickens are not included due to import restrictions.", vi: "Gửi email để nhận giá bán và trao đổi về địa điểm, giao hàng và ký quỹ. Giá chưa bao gồm phí vận chuyển. Chuồng được giao hoàn thiện: đặt lên bốn khối gạch bê tông kê đỡ, không cần lắp đặt. Không kèm gà do hạn chế nhập khẩu." },
       },
     ],
   },
   contact: {
     email: "Kimvgordon@protonmail.com",
     title: { en: "Built for profit. Designed for reality.", vi: "Tạo lợi nhuận. Phù hợp thực tế." },
-    body: { en: "Email us for pricing, site suitability, and escrow arrangements. Shipping is included and the unit arrives fully ready to use. Place it on four cinder blocks; no installation needed. Chickens are not included due to import restrictions.", vi: "Gửi email để nhận giá bán và trao đổi về địa điểm, phương án ký quỹ. Giá đã bao gồm vận chuyển, chuồng được giao hoàn thiện. Đặt lên bốn khối gạch bê tông kê đỡ, không cần lắp đặt. Không kèm gà do hạn chế nhập khẩu." },
+    body: { en: "Email us for pricing, site suitability, and escrow arrangements. Shipping costs are not included. The unit arrives fully ready to use. Place it on four cinder blocks; no installation needed. Chickens are not included due to import restrictions.", vi: "Gửi email để nhận giá bán và trao đổi về địa điểm, phương án ký quỹ. Giá chưa bao gồm phí vận chuyển. Chuồng được giao hoàn thiện. Đặt lên bốn khối gạch bê tông kê đỡ, không cần lắp đặt. Không kèm gà do hạn chế nhập khẩu." },
     cta: { en: "Email Kim & Gordon", vi: "Gửi email cho Kim & Gordon" },
   },
   footer: {
